@@ -17,12 +17,22 @@
 		C522E6FB1694CAA00014711B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C522E6FA1694CAA00014711B /* Default@2x.png */; };
 		C522E6FD1694CAA00014711B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C522E6FC1694CAA00014711B /* Default-568h@2x.png */; };
 		C522E7001694CAA00014711B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C522E6FE1694CAA00014711B /* MainStoryboard.storyboard */; };
-		C522E7031694CAA00014711B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C522E7021694CAA00014711B /* ViewController.m */; };
 		C522E70B1694CAA00014711B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C522E70A1694CAA00014711B /* SenTestingKit.framework */; };
 		C522E70C1694CAA00014711B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C522E6E61694CAA00014711B /* UIKit.framework */; };
 		C522E70D1694CAA00014711B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C522E6E81694CAA00014711B /* Foundation.framework */; };
 		C522E7151694CAA00014711B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C522E7131694CAA00014711B /* InfoPlist.strings */; };
 		C522E7181694CAA00014711B /* UtilitiesShareOptionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C522E7171694CAA00014711B /* UtilitiesShareOptionsTests.m */; };
+		CE41B81B169ECEC700197F0A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41B81A169ECEC600197F0A /* RootViewController.m */; };
+		CE473B05169D82FD00AF6B6A /* launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CE473B04169D82FD00AF6B6A /* launcher.png */; };
+		CE473B1C169D864F00AF6B6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE473B1B169D864F00AF6B6A /* QuartzCore.framework */; };
+		CE8F15B4169D27D400627EA0 /* TileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F15A1169D27D400627EA0 /* TileItem.m */; };
+		CE8F15B5169D27D400627EA0 /* LauncherPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F15A3169D27D400627EA0 /* LauncherPageControl.m */; };
+		CE8F15B6169D27D400627EA0 /* LauncherScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F15A5169D27D400627EA0 /* LauncherScrollView.m */; };
+		CE8F15B7169D27D400627EA0 /* LauncherView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F15A7169D27D400627EA0 /* LauncherView.m */; };
+		CE8F15B8169D27D400627EA0 /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F15A9169D27D400627EA0 /* LauncherViewController.m */; };
+		CE8F15B9169D27D400627EA0 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8F15AB169D27D400627EA0 /* close.png */; };
+		CE8F15D1169D4DF600627EA0 /* 7474.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8F15D0169D4DF600627EA0 /* 7474.png */; };
+		CEF0E65B16A3BA9B00664B86 /* TileItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF0E65A16A3BA9B00664B86 /* TileItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +60,29 @@
 		C522E6FA1694CAA00014711B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C522E6FC1694CAA00014711B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C522E6FF1694CAA00014711B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C522E7011694CAA00014711B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C522E7021694CAA00014711B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C522E7091694CAA00014711B /* UtilitiesShareOptionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesShareOptionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C522E70A1694CAA00014711B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C522E7121694CAA00014711B /* UtilitiesShareOptionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtilitiesShareOptionsTests-Info.plist"; sourceTree = "<group>"; };
 		C522E7141694CAA00014711B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C522E7161694CAA00014711B /* UtilitiesShareOptionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesShareOptionsTests.h; sourceTree = "<group>"; };
 		C522E7171694CAA00014711B /* UtilitiesShareOptionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilitiesShareOptionsTests.m; sourceTree = "<group>"; };
+		CE41B819169ECEC600197F0A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CE41B81A169ECEC600197F0A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CE473B04169D82FD00AF6B6A /* launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcher.png; sourceTree = "<group>"; };
+		CE473B1B169D864F00AF6B6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE8F15A0169D27D400627EA0 /* TileItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileItem.h; sourceTree = "<group>"; };
+		CE8F15A1169D27D400627EA0 /* TileItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileItem.m; sourceTree = "<group>"; };
+		CE8F15A2169D27D400627EA0 /* LauncherPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherPageControl.h; sourceTree = "<group>"; };
+		CE8F15A3169D27D400627EA0 /* LauncherPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherPageControl.m; sourceTree = "<group>"; };
+		CE8F15A4169D27D400627EA0 /* LauncherScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherScrollView.h; sourceTree = "<group>"; };
+		CE8F15A5169D27D400627EA0 /* LauncherScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherScrollView.m; sourceTree = "<group>"; };
+		CE8F15A6169D27D400627EA0 /* LauncherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherView.h; sourceTree = "<group>"; };
+		CE8F15A7169D27D400627EA0 /* LauncherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherView.m; sourceTree = "<group>"; };
+		CE8F15A8169D27D400627EA0 /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
+		CE8F15A9169D27D400627EA0 /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
+		CE8F15AB169D27D400627EA0 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		CE8F15D0169D4DF600627EA0 /* 7474.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7474.png; sourceTree = "<group>"; };
+		CEF0E65A16A3BA9B00664B86 /* TileItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileItem.xib; path = Controllers/TileItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE473B1C169D864F00AF6B6A /* QuartzCore.framework in Frameworks */,
 				C522E6E71694CAA00014711B /* UIKit.framework in Frameworks */,
 				C522E6E91694CAA00014711B /* Foundation.framework in Frameworks */,
 				C522E6EB1694CAA00014711B /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +132,7 @@
 		C522E6E51694CAA00014711B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE473B1B169D864F00AF6B6A /* QuartzCore.framework */,
 				C522E6E61694CAA00014711B /* UIKit.framework */,
 				C522E6E81694CAA00014711B /* Foundation.framework */,
 				C522E6EA1694CAA00014711B /* CoreGraphics.framework */,
@@ -117,11 +144,12 @@
 		C522E6EC1694CAA00014711B /* UtilitiesShareOptions */ = {
 			isa = PBXGroup;
 			children = (
+				CE41B819169ECEC600197F0A /* RootViewController.h */,
+				CE41B81A169ECEC600197F0A /* RootViewController.m */,
+				CE8F159D169D27D400627EA0 /* MyLauncher */,
 				C522E6F51694CAA00014711B /* AppDelegate.h */,
 				C522E6F61694CAA00014711B /* AppDelegate.m */,
 				C522E6FE1694CAA00014711B /* MainStoryboard.storyboard */,
-				C522E7011694CAA00014711B /* ViewController.h */,
-				C522E7021694CAA00014711B /* ViewController.m */,
 				C522E6ED1694CAA00014711B /* Supporting Files */,
 			);
 			path = UtilitiesShareOptions;
@@ -158,6 +186,43 @@
 				C522E7131694CAA00014711B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8F159D169D27D400627EA0 /* MyLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F15C2169D2A3D00627EA0 /* Controllers */,
+				CE8F15A0169D27D400627EA0 /* TileItem.h */,
+				CE8F15A1169D27D400627EA0 /* TileItem.m */,
+				CEF0E65A16A3BA9B00664B86 /* TileItem.xib */,
+				CE8F15A2169D27D400627EA0 /* LauncherPageControl.h */,
+				CE8F15A3169D27D400627EA0 /* LauncherPageControl.m */,
+				CE8F15A4169D27D400627EA0 /* LauncherScrollView.h */,
+				CE8F15A5169D27D400627EA0 /* LauncherScrollView.m */,
+				CE8F15A6169D27D400627EA0 /* LauncherView.h */,
+				CE8F15A7169D27D400627EA0 /* LauncherView.m */,
+				CE8F15A8169D27D400627EA0 /* LauncherViewController.h */,
+				CE8F15A9169D27D400627EA0 /* LauncherViewController.m */,
+				CE8F15AA169D27D400627EA0 /* Resources */,
+			);
+			path = MyLauncher;
+			sourceTree = "<group>";
+		};
+		CE8F15AA169D27D400627EA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE473B04169D82FD00AF6B6A /* launcher.png */,
+				CE8F15D0169D4DF600627EA0 /* 7474.png */,
+				CE8F15AB169D27D400627EA0 /* close.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE8F15C2169D2A3D00627EA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +301,10 @@
 				C522E6FB1694CAA00014711B /* Default@2x.png in Resources */,
 				C522E6FD1694CAA00014711B /* Default-568h@2x.png in Resources */,
 				C522E7001694CAA00014711B /* MainStoryboard.storyboard in Resources */,
+				CE8F15B9169D27D400627EA0 /* close.png in Resources */,
+				CE8F15D1169D4DF600627EA0 /* 7474.png in Resources */,
+				CE473B05169D82FD00AF6B6A /* launcher.png in Resources */,
+				CEF0E65B16A3BA9B00664B86 /* TileItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +341,12 @@
 			files = (
 				C522E6F31694CAA00014711B /* main.m in Sources */,
 				C522E6F71694CAA00014711B /* AppDelegate.m in Sources */,
-				C522E7031694CAA00014711B /* ViewController.m in Sources */,
+				CE8F15B4169D27D400627EA0 /* TileItem.m in Sources */,
+				CE8F15B5169D27D400627EA0 /* LauncherPageControl.m in Sources */,
+				CE8F15B6169D27D400627EA0 /* LauncherScrollView.m in Sources */,
+				CE8F15B7169D27D400627EA0 /* LauncherView.m in Sources */,
+				CE8F15B8169D27D400627EA0 /* LauncherViewController.m in Sources */,
+				CE41B81B169ECEC700197F0A /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +523,7 @@
 				C522E71D1694CAA00014711B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C522E71E1694CAA00014711B /* Build configuration list for PBXNativeTarget "UtilitiesShareOptionsTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +532,7 @@
 				C522E7201694CAA00014711B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
